@@ -1,0 +1,27 @@
+{
+  "packages": [
+    "./js-uprtcl-connections/etherum",
+    "./js-uprtcl-connections/holochain",
+    "./js-uprtcl-connections/http",
+    "./js-uprtcl-connections/ipfs",
+    "./js-uprtcl-connections/orbitdb",
+    "./js-uprtcl-core/cortex",
+    "./js-uprtcl-core/graphql",
+    "./js-uprtcl-core/lenses",
+    "./js-uprtcl-core/micro-orchestrator",
+    "./js-uprtcl-core/multiplatform",
+    "./js-uprtcl-core/redux",
+    "./js-uprtcl-modules/common-ui",
+    "./js-uprtcl-modules/documents",
+    "./js-uprtcl-modules/evees",
+    "./js-uprtcl-modules/evees-reader",
+    "./js-uprtcl-modules/wikis",
+    "./js-uprtcl-remotes/evees-blockchain",
+    "./js-uprtcl-remotes/evees-ethereum",
+    "./js-uprtcl-remotes/evees-http",
+    "./js-uprtcl-remotes/evees-local",
+    "./js-uprtcl-remotes/evees-orbitdb",
+    "./js-uprtcl-remotes/evees-polkadot"
+  ],
+  "version": "0.1.0-beta.4"
+}
