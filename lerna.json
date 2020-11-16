@@ -4,6 +4,7 @@
     "js-uprtcl-remotes/evees-http",
     "js-uprtcl-modules/common-ui",
     "js-uprtcl-modules/wikis",
+    "js-uprtcl-modules/documents",
     "js-uprtcl-modules/evees",
     "js-uprtcl-modules/demos/linked-thoughts"
   ],
