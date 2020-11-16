@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "upgrade-uprtcl": "lerna run upgrade-uprtcl --parallel"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }
