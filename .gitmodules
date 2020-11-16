@@ -1,0 +1,12 @@
+[submodule "js-uprtcl-modules"]
+path = js-uprtcl-modules
+url = git@github.com:uprtcl/js-uprtcl-modules
+[submodule "js-uprtcl-remotes"]
+path = js-uprtcl-remotes
+url = git@github.com:uprtcl/js-uprtcl-remotes
+[submodule "js-uprtcl-connections"]
+path = js-uprtcl-connections
+url = git@github.com:uprtcl/js-uprtcl-connections
+[submodule "js-uprtcl-core"]
+path = js-uprtcl-core
+url = git@github.com:uprtcl/js-uprtcl-core
