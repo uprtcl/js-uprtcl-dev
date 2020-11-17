@@ -1,12 +1,4 @@
 {
-  "packages": [
-    "js-uprtcl-connections/http",
-    "js-uprtcl-remotes/evees-http",
-    "js-uprtcl-modules/common-ui",
-    "js-uprtcl-modules/wikis",
-    "js-uprtcl-modules/documents",
-    "js-uprtcl-modules/evees",
-    "js-uprtcl-modules/demos/linked-thoughts"
-  ],
+  "packages": ["apps/demo-simple", "js-uprtcl-remotes/evees-orbitdb"],
   "version": "0.1.0-beta.4"
 }

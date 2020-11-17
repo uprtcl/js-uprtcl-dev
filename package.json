@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "dev": "lerna run dev --parallel",
-    "upgrade-uprtcl": "lerna run upgrade-uprtcl --parallel"
+    "update-uprtcl": "lerna run update-uprtcl --parallel"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "npm-check-updates": "^10.2.1"
   }
 }

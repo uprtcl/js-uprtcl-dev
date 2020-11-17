@@ -4,7 +4,7 @@
   "author": "pepo@collectiveone.org",
   "license": "BOOS-FL",
   "scripts": {
-    "upgrade-uprtcl": "npm i @uprtcl/cortex@latest @uprtcl/documents@latest @uprtcl/evees@latest @uprtcl/evees-http@latest @uprtcl/graphql@latest @uprtcl/http-provider@latest @uprtcl/lenses@latest @uprtcl/micro-orchestrator@latest @uprtcl/multiplatform@latest @uprtcl/wikis@latest",
+    "update-uprtcl": "ncu -u \"/^@uprtcl.*$/\"",
     "build": "rimraf dist-pages && webpack",
     "start": "webpack-dev-server --mode=development",
     "dev": "npm start",
@@ -12,16 +12,16 @@
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.11.0",
-    "@uprtcl/wikis": "0.1.0-beta.8",
-    "@uprtcl/documents": "0.1.0-beta.8",
-    "@uprtcl/evees-http": "0.1.0-beta.16",
-    "@uprtcl/evees": "0.1.0-beta.8",
-    "@uprtcl/graphql": "0.1.0-beta.4",
     "@uprtcl/cortex": "0.1.0-beta.4",
+    "@uprtcl/documents": "0.1.0-beta.8",
+    "@uprtcl/evees": "0.1.0-beta.8",
+    "@uprtcl/evees-http": "0.1.0-beta.16",
+    "@uprtcl/graphql": "0.1.0-beta.4",
+    "@uprtcl/http-provider": "0.1.0-beta.6",
     "@uprtcl/lenses": "0.1.0-beta.4",
     "@uprtcl/micro-orchestrator": "0.1.0-beta.4",
     "@uprtcl/multiplatform": "0.1.0-beta.4",
-    "@uprtcl/http-provider": "0.1.0-beta.6",
+    "@uprtcl/wikis": "0.1.0-beta.8",
     "@vaadin/router": "^1.7.2",
     "apollo-boost": "^0.4.7",
     "cids": "^1.0.0",
@@ -51,6 +51,7 @@
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.10.3",
+    "npm-check-updates": "^10.2.1"
   }
 }

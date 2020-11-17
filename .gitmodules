@@ -10,3 +10,7 @@ url = git@github.com:uprtcl/js-uprtcl-connections
 [submodule "js-uprtcl-core"]
 path = js-uprtcl-core
 url = git@github.com:uprtcl/js-uprtcl-core
+
+[submodule "demo-simple"]
+path = apps/demo-simple
+url = git@github.com:uprtcl/demo-simple.git
