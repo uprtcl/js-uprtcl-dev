@@ -21,7 +21,8 @@
       "lit-html": ["node_modules/lit-html"],
       "lit-html/*": ["node_modules/lit-html/*"],
       "inversify": ["node_modules/inversify"],
-      "inversify/*": ["node_modules/inversify/*"]
+      "inversify/*": ["node_modules/inversify/*"],
+      "@uprtcl/http-provider": ["./node_modules/@uprtcl/http-provider"]
     }
   },
   "include": ["src"],

@@ -1,4 +1,9 @@
 {
-  "packages": ["apps/demo-simple", "js-uprtcl-remotes/evees-orbitdb"],
+  "packages": [
+    "apps/intercreativity-react",
+    "js-uprtcl-modules/evees",
+    "js-uprtcl-modules/wikis",
+    "js-uprtcl-modules/documents"
+  ],
   "version": "0.1.0-beta.4"
 }
