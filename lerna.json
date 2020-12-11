@@ -1,4 +1,4 @@
 {
-  "packages": ["apps/linked-thoughts", "js-uprtcl-modules/wikis"],
+  "packages": ["./apps/demo-simple", "./js-uprtcl-connections/orbitdb"],
   "version": "0.0.0"
 }

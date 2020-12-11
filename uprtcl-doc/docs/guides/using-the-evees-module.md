@@ -69,35 +69,7 @@ await orchestrator.loadModule(evees);
 
 `Evees` (Evolving Entities) are ever evolving, forking and merging data structures that can live and coevolve in different platforms.
 
-They are made of two basic entities: `Perspectives` (_branches_ in git) and `Commits`. This is the basic GraphQl types that the `EveesModule` registers:
-
-```graphql
-type Perspective implements Entity {
-  id: ID!
-
-  head: Commit @discover
-  name: String
-  context: Context
-  payload: Payload
-  proposals: [UpdateProposal!]
-
-  _context: EntityContext!
-}
-
-type Commit implements Entity {
-  id: ID!
-
-  parentCommits: [Commit!]! @discover
-  timestamp: Date!
-  message: String
-  data: Entity @discover
-  creatorsIds: [ID!]!
-
-  _context: EntityContext!
-}
-```
-
-You can see the complete schema and all the mutations available [here](https://github.com/uprtcl/js-uprtcl/blob/master/modules/evees/src/graphql/schema.ts).
+They are made of two basic entities: `Perspectives` (_branches_ in git) and `Commits`. This is the basic types that the `EveesModule` registers:
 
 ## Using Evees
 
@@ -135,7 +107,6 @@ Refer to [Developing a Cortex Module](/guides/cortex/what-is-cortex) to know how
 - Implement the [Merge behaviour](https://github.com/uprtcl/js-uprtcl/blob/master/modules/evees/src/behaviours/merge.ts) for all entities that can be referenced from a Commit ([example](https://github.com/uprtcl/js-uprtcl/blob/master/modules/documents/src/patterns/text-node.pattern.ts)).
 - Implement the [HasChildren behaviour](https://github.com/uprtcl/js-uprtcl/blob/develop/packages/cortex/src/behaviour/has-links.ts) for all entities that can be referenced from a Commit, returning the list of hashes that reference "children" entities ([example](https://github.com/uprtcl/js-uprtcl/blob/master/modules/wikis/src/patterns/wiki.entity.ts)).
 - Register all necessary [CASSources](/guides/cortex/building-blocks/sources) to be able to retrieve all your entities.
-- [Create a GraphQl schema](/guides/cortex/building-blocks/graphql-schemas) extension in which your data types implement the `Entity` type.
 
 ## List of built-in modules with compatible with Evees
 

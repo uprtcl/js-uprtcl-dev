@@ -26,3 +26,13 @@ url = git@github.com:uprtcl/alchemy.git
 [submodule "linked-thoughts"]
 path = apps/linked-thoughts
 url = git@github.com:uprtcl/linked-thoughts.git
+
+[submodule "kusama-intercreativity"]
+path = apps/kusama-intercreativity
+url = git@github.com:uprtcl/kusama-intercreativity.git
+
+[submodule "intercreativity-reader"]
+path = apps/kusama-reader-example
+url = git@github.com:uprtcl/intercreativity-reader.git
+
+ 
