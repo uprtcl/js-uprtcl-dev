@@ -1,1 +1,0 @@
-../../packages/micro-orchestrator/README.md

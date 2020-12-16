@@ -1,4 +1,9 @@
 {
-  "packages": ["./apps/demo-simple", "./js-uprtcl-connections/orbitdb"],
+  "packages": [
+    "apps/demo-simple",
+    "js-uprtcl-modules/documents",
+    "js-uprtcl-remotes/evees-http",
+    "js-uprtcl-core/micro-orchestrator"
+  ],
   "version": "0.0.0"
 }
