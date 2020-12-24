@@ -1,9 +1,9 @@
 {
   "packages": [
-    "apps/demo-simple",
-    "js-uprtcl-modules/documents",
-    "js-uprtcl-remotes/evees-http",
-    "js-uprtcl-core/micro-orchestrator"
+    "js-uprtcl/modules/evees-reader",
+    "js-uprtcl/modules/wikis",
+    "js-uprtcl/core/cortex",
+    "apps/kusama-council-page"
   ],
   "version": "0.0.0"
 }
