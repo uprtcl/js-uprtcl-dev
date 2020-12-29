@@ -1,36 +1,12 @@
 [submodule "js-uprtcl"]
-path = js-uprtcl
-url = git@github.com:uprtcl/js-uprtcl
-
-[submodule "kusama-council-page"]
-path = apps/kusama-council-page
-url = git@github.com:uprtcl/council-page.kusama.network.git
-
-
-[submodule "intercreativity-react"]
-path = apps/intercreativity-react
-url = git@github.com:uprtcl/intercreativity-react.git
-
-[submodule "demo-simple"]
-path = apps/demo-simple
-url = git@github.com:uprtcl/demo-simple.git
-
-[submodule "alchemy"]
-path = apps/alchemy-2
-url = git@github.com:uprtcl/alchemy.git
-
+	path = js-uprtcl
+	url = git@github.com:uprtcl/js-uprtcl.git
+	branch = master
 [submodule "linked-thoughts"]
-path = apps/linked-thoughts
-url = git@github.com:uprtcl/linked-thoughts.git
-
-[submodule "kusama-intercreativity"]
-path = apps/kusama-intercreativity
-url = git@github.com:uprtcl/kusama-intercreativity.git
-
-[submodule "intercreativity-reader"]
-path = apps/kusama-reader-example
-url = git@github.com:uprtcl/intercreativity-reader.git
-
-
-
- 
+	path = linked-thoughts
+	url = git@github.com:uprtcl/linked-thoughts.git
+	branch = master
+[submodule "js-uprtcl-server"]
+	path = js-uprtcl-server
+	url = git@github.com:uprtcl/js-uprtcl-server.git
+	branch = master
