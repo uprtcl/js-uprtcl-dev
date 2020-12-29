@@ -1,9 +1,16 @@
 {
   "packages": [
-    "js-uprtcl/modules/evees-reader",
-    "js-uprtcl/modules/wikis",
+    "js-uprtcl/connections/ethereum",
+    "js-uprtcl/connections/http",
     "js-uprtcl/core/cortex",
-    "apps/kusama-council-page"
+    "js-uprtcl/core/lenses",
+    "js-uprtcl/core/multiplatform",
+    "js-uprtcl/remotes/evees-http",
+    "js-uprtcl/modules/common-ui",
+    "js-uprtcl/modules/documents",
+    "js-uprtcl/modules/evees",
+    "js-uprtcl/modules/wikis",
+    "linked-thoughts"
   ],
   "version": "0.0.0"
 }
