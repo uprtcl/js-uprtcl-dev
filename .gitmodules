@@ -2,11 +2,10 @@
 	path = js-uprtcl
 	url = git@github.com:uprtcl/js-uprtcl.git
 	branch = master
-[submodule "linked-thoughts"]
-	path = linked-thoughts
-	url = git@github.com:uprtcl/linked-thoughts.git
-	branch = main
 [submodule "js-uprtcl-server"]
 	path = js-uprtcl-server
 	url = git@github.com:uprtcl/js-uprtcl-server.git
 	branch = master
+[submodule "linked-thoughts"]
+	path = linked-thoughts
+	url = git@github.com:uprtcl/linked-thoughts.git
