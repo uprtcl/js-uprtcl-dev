@@ -1,3 +1,6 @@
 [submodule "js-uprtcl"]
 	path = js-uprtcl
 	url = git@github.com:uprtcl/js-uprtcl.git
+[submodule "linked-thoughts"]
+	path = linked-thoughts
+	url = git@github.com:uprtcl/linked-thoughts.git
