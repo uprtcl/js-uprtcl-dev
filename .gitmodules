@@ -9,3 +9,4 @@
 [submodule "linked-thoughts"]
 	path = linked-thoughts
 	url = git@github.com:uprtcl/linked-thoughts.git
+	branch = main
