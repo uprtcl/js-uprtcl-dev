@@ -5,7 +5,7 @@
 [submodule "linked-thoughts"]
 	path = linked-thoughts
 	url = git@github.com:uprtcl/linked-thoughts.git
-	branch = master
+	branch = main
 [submodule "js-uprtcl-server"]
 	path = js-uprtcl-server
 	url = git@github.com:uprtcl/js-uprtcl-server.git
