@@ -1,9 +1,10 @@
 {
   "packages": [
-    "js-uprtcl/modules/evees-reader",
-    "js-uprtcl/modules/wikis",
-    "js-uprtcl/core/cortex",
-    "apps/kusama-council-page"
+    "js-uprtcl/modules/*",
+    "js-uprtcl/core/*",
+    "js-uprtcl/remotes/*",
+    "js-uprtcl/connections/*",
+    "linked-thoughts"
   ],
   "version": "0.0.0"
 }
