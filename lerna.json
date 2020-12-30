@@ -1,15 +1,9 @@
 {
   "packages": [
-    "js-uprtcl/connections/ethereum",
-    "js-uprtcl/connections/http",
-    "js-uprtcl/core/cortex",
-    "js-uprtcl/core/lenses",
-    "js-uprtcl/core/multiplatform",
-    "js-uprtcl/remotes/evees-http",
-    "js-uprtcl/modules/common-ui",
-    "js-uprtcl/modules/documents",
-    "js-uprtcl/modules/evees",
-    "js-uprtcl/modules/wikis",
+    "js-uprtcl/modules/*",
+    "js-uprtcl/core/*",
+    "js-uprtcl/remotes/*",
+    "js-uprtcl/connections/*",
     "linked-thoughts"
   ],
   "version": "0.0.0"
