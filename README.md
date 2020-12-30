@@ -1,8 +1,17 @@
-Clone and init git modules
+Clone (use --recurse-submodules)
 
 ```
-git submodule update --init
-lerna bootstrap
+git clone --recurse-submodules GITHUB_URL
 ```
 
-Run the server and the frontend separatedly.
+Check out a given branch (and the corresponding commits at each submodule)
+
+```
+git checkout --recurse-submodules --force BRANCH
+```
+
+If you work on a submodule and want to link to the workgin branch
+
+```
+TBW
+```
