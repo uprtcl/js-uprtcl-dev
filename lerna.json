@@ -8,6 +8,7 @@
     "js-uprtcl/modules/wikis",
     "js-uprtcl/modules/documents",
     "js-uprtcl/remotes/http",
+    "js-uprtcl-server",
     "linked-thoughts"
   ],
   "version": "0.0.0"
