@@ -9,3 +9,6 @@
 [submodule "council-page.kusama.network"]
 	path = council-page.kusama.network
 	url = git@github.com:uprtcl/council-page.kusama.network.git
+[submodule "kusama-intercreativity"]
+	path = kusama-intercreativity
+	url = https://github.com/uprtcl/kusama-intercreativity.git
