@@ -2,11 +2,10 @@
 	path = js-uprtcl
 	url = git@github.com:uprtcl/js-uprtcl.git
 	branch = develop
-[submodule "linked-thoughts"]
-	path = linked-thoughts
-	url = git@github.com:uprtcl/linked-thoughts.git
-	branch = develop
 [submodule "js-uprtcl-server"]
 	path = js-uprtcl-server
 	url = git@github.com:uprtcl/js-uprtcl-server.git
 	branch = develop
+[submodule "council-page.kusama.network"]
+	path = council-page.kusama.network
+	url = git@github.com:uprtcl/council-page.kusama.network.git
