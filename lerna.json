@@ -2,7 +2,6 @@
   "packages": [
     "js-uprtcl/connections/http",
     "js-uprtcl/connections/ethereum",
-    "js-uprtcl/connections/ipfs",
     "js-uprtcl/evees",
     "js-uprtcl/modules/common-ui",
     "js-uprtcl/modules/wikis",
