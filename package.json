@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "dev": "lerna run dev --parallel",
+    "build": "lerna run build",
     "update-uprtcl": "lerna run update-uprtcl --parallel"
   },
   "devDependencies": {
