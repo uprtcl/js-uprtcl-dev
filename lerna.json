@@ -1,9 +1,12 @@
 {
   "packages": [
-    "js-uprtcl/modules/*",
-    "js-uprtcl/core/*",
-    "js-uprtcl/remotes/*",
-    "js-uprtcl/connections/*",
+    "js-uprtcl/connections/http",
+    "js-uprtcl/connections/ethereum",
+    "js-uprtcl/evees",
+    "js-uprtcl/modules/common-ui",
+    "js-uprtcl/modules/documents",
+    "js-uprtcl/remotes/http",
+    "js-uprtcl-server",
     "linked-thoughts"
   ],
   "version": "0.0.0"
