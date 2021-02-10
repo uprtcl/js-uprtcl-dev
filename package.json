@@ -9,5 +9,8 @@
   "devDependencies": {
     "lerna": "^3.22.1",
     "npm-check-updates": "^10.2.1"
+  },
+  "engines": {
+    "node": ">=12 <13"
   }
 }
