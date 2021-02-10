@@ -30,3 +30,5 @@ Finally you can run the consuming application which uses the libraries and conne
 cd linked-thoughts
 npm run dev
 ```
+
+Now open `localhost:8002` on your browser and you should see the application. Use Metamask to login as Auth0 access is limited to an oklist.
