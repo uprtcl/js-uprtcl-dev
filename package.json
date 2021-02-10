@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "dev": "lerna run dev --parallel",
     "update-uprtcl": "lerna run update-uprtcl --parallel"
   },
