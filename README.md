@@ -28,6 +28,22 @@ Finally you can run the consuming application which uses the libraries and conne
 
 ```
 cd linked-thoughts
+touch src/services/env.ts
+```
+
+And fill it with the following content:
+
+```ts
+export const env = {
+  // host: 'https://api.intercreativity.io/uprtcl/1',
+  host: 'http://localhost:3100/uprtcl/1',
+};
+```
+
+Then run the app in dev mode
+
+```
+cd ../..
 npm run dev
 ```
 
