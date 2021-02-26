@@ -43,7 +43,7 @@ export const env = {
 Then run the app in dev mode
 
 ```
-cd ../..
+cd linked-thoughts
 npm run dev
 ```
 
