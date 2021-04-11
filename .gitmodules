@@ -10,3 +10,8 @@
 	path = js-uprtcl-server
 	url = git@github.com:uprtcl/js-uprtcl-server.git
 	branch = develop
+[submodule "compile-test"]
+	path = compile-test
+	url = git@github.com:pepoospina/uprtcl-compile-test.git
+	branch = master
+
