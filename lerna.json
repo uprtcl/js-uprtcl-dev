@@ -2,7 +2,7 @@
   "packages": [
     "js-uprtcl/connections/http",
     "js-uprtcl/connections/ethereum",
-    "js-uprtcl/evees",
+    "js-uprtcl/core/evees",
     "js-uprtcl/modules/common-ui",
     "js-uprtcl/modules/documents",
     "js-uprtcl/remotes/http",
