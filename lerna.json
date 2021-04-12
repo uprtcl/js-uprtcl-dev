@@ -3,10 +3,11 @@
     "js-uprtcl/connections/http",
     "js-uprtcl/connections/ethereum",
     "js-uprtcl/core/evees",
-    "js-uprtcl/modules/common-ui",
+    "js-uprtcl/core/evees-ui",
+    "js-uprtcl/core/common-ui",
     "js-uprtcl/modules/documents",
     "js-uprtcl/remotes/http",
-    "compile-test",
+    "linked-thoughts",
     "js-uprtcl-server"
   ],
   "version": "0.0.0"
