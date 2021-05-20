@@ -2,13 +2,15 @@
   "packages": [
     "js-uprtcl/connections/http",
     "js-uprtcl/connections/ethereum",
+    "js-uprtcl/connections/ipfs",
     "js-uprtcl/core/evees",
     "js-uprtcl/core/evees-ui",
     "js-uprtcl/core/common-ui",
     "js-uprtcl/modules/documents",
     "js-uprtcl/remotes/http",
-    "js-uprtcl-server",
-    "linked-thoughts"
+    "js-uprtcl/remotes/ethereum",
+    "js-uprtcl/remotes/blockchain",
+    "js-uprtcl-server"
   ],
   "version": "0.0.0"
 }
