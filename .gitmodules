@@ -10,3 +10,7 @@
 	path = js-uprtcl-server
 	url = git@github.com:uprtcl/js-uprtcl-server.git
 	branch = develop
+[submodule "blockchain-watchman-uprtcl"]
+	path = blockchain-watchman-uprtcl
+	url = git@github.com:sotous/blockchain-watchman-uprtcl.git
+	branch = develop
