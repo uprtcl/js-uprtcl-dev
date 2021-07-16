@@ -8,8 +8,11 @@
     "js-uprtcl/core/common-ui",
     "js-uprtcl/modules/documents",
     "js-uprtcl/remotes/http",
+    "js-uprtcl/remotes/http-ui",
     "js-uprtcl/remotes/ethereum",
     "js-uprtcl/remotes/blockchain",
+    "blockchain-watchman-uprtcl",
+    "linked-thoughts",
     "js-uprtcl-server"
   ],
   "version": "0.0.0"
