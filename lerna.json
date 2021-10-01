@@ -8,7 +8,8 @@
     "js-uprtcl/modules/documents",
     "js-uprtcl/remotes/http",
     "js-uprtcl-server",
-    "linked-thoughts"
+    "linked-thoughts",
+    "example-local"
   ],
   "version": "0.0.0"
 }

@@ -10,3 +10,6 @@
 	path = js-uprtcl-server
 	url = git@github.com:uprtcl/js-uprtcl-server.git
 	branch = develop
+[submodule "example-local"]
+	path = example-local
+	url = git@github.com:uprtcl/example-local.git
